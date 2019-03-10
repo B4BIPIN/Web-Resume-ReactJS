@@ -1,0 +1,88 @@
+.About {
+    padding: 1% 12%;
+    /* background   : lightgray; */
+}
+.About div {
+    margin: 5% 0%;
+}
+.AboutMe {
+    /* margin: 5% 0% !important; */
+}
+.About h1{
+    letter-spacing: 8px;
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .AboutHeading h3{
+    font-size: 20px;
+    margin: 0px;
+    color: lightgray;
+  }
+
+  .About p {
+      letter-spacing: 0.1em;
+      font-size: 18px;
+  }
+  .AboutMe p {
+    color: gray;
+  }
+  .AboutMe h3,.AboutPersonal h3,.Skills h3,.AboutExperience h3,.AboutEducation h3,.Hobbies h3 {
+margin: 10px auto 20px auto;
+  }
+  .block {
+    border-radius: 5px;
+    border: none;
+    margin: 0px auto;
+    height: 6px;
+    width: 20px;
+    color: yellow; 
+    background-color: yellow;
+  }
+  .divider {
+background: rgb(224, 222, 222);
+height: 1px;
+border: none;
+margin-top: 0px;
+}
+
+/* --------------------------------------------------- */
+.AboutPersonal ul {
+    list-style: none;
+}
+.AboutPersonal ul li span {
+    color: gray;
+}
+
+.AboutPersonalFlex {
+    display: flex;
+    margin: 0px !important;
+    justify-content: center;
+}
+.AboutPersonalFlex * {
+    font-size: 20px;
+}
+.AboutPersonalFlexLeft{
+    text-align: end;
+}
+.AboutPersonalFlexRight {
+text-align: start;
+}
+/* --------------------------------------------------- */
+/* Hobbies */
+.PersonalHobbies {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin: 0px !important;
+}
+.hobby {
+    margin: 0px;
+    padding: 20px;
+    color: gray;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px lightgray;
+    border-radius: 50%;
+}
+.hobby:hover{
+    box-shadow: 1px 1px 10px gray;
+}

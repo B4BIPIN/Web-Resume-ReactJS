@@ -1,0 +1,41 @@
+.Navigation {
+    background: #FFF;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    /* overflow: hidden; */
+}
+.Navigation .MyNavLink {
+    position: relative;
+    /* z-index: 100; */
+    color: grey;
+    border-right: 1px solid lightgray;
+    border-top: 1px solid   lightgray;
+    border-left: 1px solid  lightgray;
+    /* box-shadow: inset 0 0 10px lightgray; */
+    width: 110%;
+    -webkit-clip-path: polygon(90% 0, 90% 42%, 100% 50%, 90% 58%, 90% 100%, 0 100%, 0 0);
+    clip-path: polygon(90% 0, 90% 42%, 100% 50%, 90% 58%, 90% 100%, 0 100%, 0 0);   
+}
+.Navigation .MyNavLink:focus {
+/* color: black; */
+/* border-left: 1px solid black; */
+/* border-top: 1px solid black; */
+}
+.Navigation .MyNavLink .MyDiv {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    bottom: 15%;
+    right: 20%;
+    /* left: 50%; */
+    /* top: 50%;  */
+    /* align-content: center; */
+}
+.Navigation:last-child {
+    /* border-bottom: 1px solid lightgray; */
+} 
+.MyNavLink:focus {
+    /* background: yellow; */
+
+}

@@ -1,0 +1,61 @@
+ h1 {
+     color: black;
+ }
+ h3 {
+     color: gray;
+ }
+ .Contact {
+     text-align: center;
+     /* width: 100%; */
+     /* background: green; */
+     /* padding: 1% 10%; */
+     /* margin: 5% 10%; */
+    padding: 1% 12%;
+     
+     color: rgb(66, 65, 65);
+ }
+.Contact .GoogleMap {
+    /* width: 100% ; */
+    /* position: static; */
+    /* background: yellow; */
+}
+.PersonalDeep {
+    display: grid;
+    grid-gap: 4%;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+}
+.PersonalDeep .PersonalContact {
+    margin: 5% auto;
+    width: 90%;
+    padding: 20% 5% 15% 5%;
+    /* height: 50px; */
+    /* background: red; */
+}
+.PersonalContact {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.PersonalContact:hover {
+    box-shadow: 1px 1px 5px lightgray;    
+}
+.PersonalContact p {
+    color: gray;
+    font-size: 16px;
+}
+.PersonalContact i {
+    color: gray;
+    font-size: 20px;
+}
+.PersonalContact h4 {
+    color: gray;
+}
+.PersonalContact:hover h4{
+    color: rgb(59, 59, 59);
+}
+
+.PersonalContact:hover i{
+    color: rgb(59, 59, 59);
+    
+}

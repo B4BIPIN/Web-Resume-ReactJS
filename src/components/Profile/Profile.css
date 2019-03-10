@@ -1,0 +1,59 @@
+.Profile {
+    /* background: yellow; */
+    position: relative;
+    /* position: fixed;  */
+
+}
+.Profile .HireMe {
+    color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.863);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .BipinProfile {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    color: white;
+    font-size: 90%;
+    padding: 4% 0%;
+    /* background: black; */
+    background-color: rgba(0, 0, 0, 0.863);
+  }
+.Profile:hover .HireMe {
+    height: 100%;
+  }
+  .Profile:hover .BipinProfile {
+    display: none;
+  }
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* -----------------media queries */
+@media screen and (max-width: 1200px){
+  .BipinProfile {
+    /* font-size: 16px;  */
+    padding: 5% 1%;
+    font-size: 90%;
+    
+  }
+}
