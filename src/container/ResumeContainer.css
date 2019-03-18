@@ -155,9 +155,6 @@
        height: 92%;
         padding: 5% !important;
    }
-   .Profile {
-       /* display: none; */
-       }
    .Navigation {
        height: 120% !important;
        position: relative;
@@ -188,7 +185,7 @@ clip-path: polygon(50% 0, 58% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 42% 10%) 
 }
 .ProfileName {
     border-top-right-radius:12px !important;
-    background: rgb(130, 130, 119);
+    /* background: rgb(130, 130, 119); */
     text-align: center;
     z-index: 9 !important; 
     box-shadow: 0px 1px 5px gray;

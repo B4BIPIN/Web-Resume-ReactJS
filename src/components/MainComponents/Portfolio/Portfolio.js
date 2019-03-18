@@ -7,68 +7,68 @@ class Portfolio extends React.Component {
         this.state = {type:'Name'};
     }
     render(){
-        var Portfolio = [
-            {
-                Name:'BipinVanilla',
-                Tech:'VanillaScript',
-                Company:'BuildBeautiful4All',
-                Time:'2Dec',
-                Status:'Done',
-                LiveStatus:false,
-                SubTech:'HTML , CSS',
-                Url:''
-               },
-            {
-                Name:'BipinReactJS',
-                Tech:'ReactScript',
-                Company:'BuildBeautiful4All',
-                Time:'3Dec',
-                Status:'Done',
-                LiveStatus:false,
-                SubTech:'HTML , CSS',
-                Url:''
-            },
-            {
-                Name:'Angular',
-                Tech:'AngularScript',
-                Company:'BuildBeautiful4All',
-                Time:'5Dec',
-                Status:'Done',
-                LiveStatus:true,
-                SubTech:'HTML , CSS',
-                Url:''
-            },
-            {
-                Name:'Angular',
-                Tech:'AngularScript',
-                Company:'BuildBeautiful4All',
-                Time:'5Dec',
-                Status:'Done',
-                LiveStatus:true,
-                SubTech:'HTML , CSS',
-                Url:''
-            },
-            {
-                Name:'Angular',
-                Tech:'AngularScript',
-                Company:'BuildBeautiful4All',
-                Time:'5Dec',
-                Status:'Done',
-                LiveStatus:true,
-                SubTech:'HTML , CSS',
-                Url:''
-            },
-            {
-                Name:'Angular',
-                Tech:'AngularScript',
-                Company:'BuildBeautiful4All',
-                Time:'5Dec',
-                Status:'Done',
-                LiveStatus:true,
-                SubTech:'HTML , CSS',
-                Url:''
-            }
-        ];
+        // var Portfolio = [
+        //     {
+        //         Name:'BipinVanilla',
+        //         Tech:'VanillaScript',
+        //         Company:'BuildBeautiful4All',
+        //         Time:'2Dec',
+        //         Status:'Done',
+        //         LiveStatus:false,
+        //         SubTech:'HTML , CSS',
+        //         Url:''
+        //        },
+        //     {
+        //         Name:'BipinReactJS',
+        //         Tech:'ReactScript',
+        //         Company:'BuildBeautiful4All',
+        //         Time:'3Dec',
+        //         Status:'Done',
+        //         LiveStatus:false,
+        //         SubTech:'HTML , CSS',
+        //         Url:''
+        //     },
+        //     {
+        //         Name:'Angular',
+        //         Tech:'AngularScript',
+        //         Company:'BuildBeautiful4All',
+        //         Time:'5Dec',
+        //         Status:'Done',
+        //         LiveStatus:true,
+        //         SubTech:'HTML , CSS',
+        //         Url:''
+        //     },
+        //     {
+        //         Name:'Angular',
+        //         Tech:'AngularScript',
+        //         Company:'BuildBeautiful4All',
+        //         Time:'5Dec',
+        //         Status:'Done',
+        //         LiveStatus:true,
+        //         SubTech:'HTML , CSS',
+        //         Url:''
+        //     },
+        //     {
+        //         Name:'Angular',
+        //         Tech:'AngularScript',
+        //         Company:'BuildBeautiful4All',
+        //         Time:'5Dec',
+        //         Status:'Done',
+        //         LiveStatus:true,
+        //         SubTech:'HTML , CSS',
+        //         Url:''
+        //     },
+        //     {
+        //         Name:'Angular',
+        //         Tech:'AngularScript',
+        //         Company:'BuildBeautiful4All',
+        //         Time:'5Dec',
+        //         Status:'Done',
+        //         LiveStatus:true,
+        //         SubTech:'HTML , CSS',
+        //         Url:''
+        //     }
+        // ];
         return <div className="Portfolios">
             <h1>PORTFOLIO</h1>
             <hr className="block"/>
